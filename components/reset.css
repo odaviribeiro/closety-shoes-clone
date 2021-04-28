@@ -1,0 +1,35 @@
+/*=== Variáveis de Cores ===*/
+:root {
+  --black-900: #121212;
+  --gray-300: #656565;
+  --red-500: #FF5F5F;
+  }
+  
+  /*=== Global Reset ===*/
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  body, input, textarea, button {
+    font-family: 'Montserrat', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  }
+  
+  h1, h2, h3, h4, h5, h6, strong {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  ul, li {
+    list-style: none;
+  }
+
+  button {
+    cursor: pointer;
+  }
