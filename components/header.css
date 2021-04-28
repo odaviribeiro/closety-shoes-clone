@@ -118,3 +118,13 @@
 .header__minicart {
   padding: 15px;
 }
+
+.header__search > .search > a > svg {
+  fill: #fff;
+}
+
+.header__search:hover a span,
+.header__search:hover svg {
+  color: var(--red-500);
+  fill: var(--red-500);
+}
